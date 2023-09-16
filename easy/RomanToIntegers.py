@@ -11,8 +11,3 @@ def romanToInt(s: str) -> int:
 
     return res
 
-
-if __name__ == '__main__':
-    result = romanToInt("IX")
-    print(result)
-

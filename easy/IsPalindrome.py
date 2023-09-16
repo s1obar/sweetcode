@@ -15,8 +15,3 @@ def isPalindrome(x) -> bool:
         div = div / 100
 
     return True
-
-
-if __name__ == '__main__':
-    result = isPalindrome(100001)
-    print(result)

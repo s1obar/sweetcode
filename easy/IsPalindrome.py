@@ -18,5 +18,5 @@ def isPalindrome(x) -> bool:
 
 
 if __name__ == '__main__':
-    result = isPalindrome(1221)
+    result = isPalindrome(100001)
     print(result)

@@ -11,19 +11,6 @@ def longestCommonPrefix(strs) -> str:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   #  res = ""
 
    # for i in range(len(strs[0])):

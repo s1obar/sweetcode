@@ -1,5 +1,5 @@
-import IsPalindrome,RomanToIntegers,LongestCommonPrefix
+import IsPalindrome,RomanToIntegers,LongestCommonPrefix,ValidParentheses
 
 if __name__ == '__main__':
-    result = LongestCommonPrefix.longestCommonPrefix(["rock","roda","romoli"])
+    result = ValidParentheses.validParentheses("{[]")
     print(result)

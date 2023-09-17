@@ -8,7 +8,6 @@ def removeDuplicates(nums: List[int]):
             nums[j] = nums[i]
             j += 1
         
-    print(nums)
     return j
             
         

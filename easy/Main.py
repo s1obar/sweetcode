@@ -1,5 +1,5 @@
-import RemoveDuplicatesFromSortedArray
+import RemoveElement
 
 if __name__ == '__main__':
-    result = RemoveDuplicatesFromSortedArray.removeDuplicates([1,1,2, 3,3, 4,4, 5])
+    result = RemoveElement.removeElement([0,1,2,2,3,0,4,2],2)
     print(result)

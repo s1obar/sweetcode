@@ -1,7 +1,5 @@
-import IsPalindrome,RomanToIntegers,LongestCommonPrefix,ValidParentheses,TwoSortedListsMerge
+import RemoveDuplicatesFromSortedArray
 
 if __name__ == '__main__':
-    l1 = TwoSortedListsMerge.createLinkedList([1,2,4])
-    l2 = TwoSortedListsMerge.createLinkedList([1,3,4])
-    result = TwoSortedListsMerge.toList(TwoSortedListsMerge.mergeTwoLists(l1,l2))
+    result = RemoveDuplicatesFromSortedArray.removeDuplicates([1,1,2, 3,3, 4,4, 5])
     print(result)

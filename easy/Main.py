@@ -1,5 +1,5 @@
-import SearchInsertPosittion
+import LengthOfLastWord
 
 if __name__ == '__main__':
-    result = SearchInsertPosittion.searchInsert([1,3,5,6], 7)
+    result = LengthOfLastWord.lengthOfLastWord("    Hello     World    ")
     print(result)

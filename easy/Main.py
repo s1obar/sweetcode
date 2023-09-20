@@ -1,5 +1,5 @@
-import AddBinary
+import Sqrt
 
 if __name__ == '__main__':
-    result = AddBinary.addBinary("1", "111")
+    result = Sqrt.mySqrt(15)
     print(result)

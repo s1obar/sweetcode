@@ -1,5 +1,5 @@
-import Sqrt
+import ClimbingStairs
 
 if __name__ == '__main__':
-    result = Sqrt.mySqrt(15)
+    result = ClimbingStairs.climbStairs(5)
     print(result)

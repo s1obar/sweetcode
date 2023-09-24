@@ -1,5 +1,5 @@
-import ClimbingStairs
+import BestTimeToBuyAndSellStocks
 
 if __name__ == '__main__':
-    result = ClimbingStairs.climbStairs(5)
+    result = BestTimeToBuyAndSellStocks.maxProfit([7,5,3,2,1])
     print(result)

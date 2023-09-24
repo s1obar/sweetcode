@@ -1,5 +1,5 @@
-import BestTimeToBuyAndSellStocks
+import ProductOfArrayExceptSelf
 
 if __name__ == '__main__':
-    result = BestTimeToBuyAndSellStocks.maxProfit([7,5,3,2,1])
+    result = ProductOfArrayExceptSelf.productExceptSelf([-1,1,0,-3,3])
     print(result)

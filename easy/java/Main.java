@@ -2,8 +2,8 @@ package easy.java;
 
 public class Main {
     public static void main(String[] args){
-        int[] array = new int[]{-1,1,0,-3,3};
-        int result = MaximumSubarray.maxSubArray(array);
+        int[] array = new int[]{-1,1,-3,3};
+        boolean result = ContainsDuplicate.containsDuplicate(array);
         System.out.println(result);
     }
 }

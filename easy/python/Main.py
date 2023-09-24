@@ -1,5 +1,5 @@
-import MaximumSubarray
+import ContainsDuplicate
 
 if __name__ == '__main__':
-    result = MaximumSubarray.maxSubArray([-1,1,0,-3,3])
+    result = ContainsDuplicate.containsDuplicate([1,2,3,4])
     print(result)

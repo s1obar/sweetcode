@@ -1,5 +1,5 @@
-import MaximumProductSubarray
+import SearchInRotatedSortedArray
 
 if __name__ == '__main__':
-    result = MaximumProductSubarray.maxProduct([-1,8])
+    result = SearchInRotatedSortedArray.search([4,5,6,7,0,1,2], 1)
     print(result)

@@ -1,5 +1,5 @@
-import SearchInRotatedSortedArray
+import TwoSumTwo
 
 if __name__ == '__main__':
-    result = SearchInRotatedSortedArray.search([4,5,6,7,0,1,2], 1)
+    result = TwoSumTwo.twoSum([2,3,4], 6)
     print(result)

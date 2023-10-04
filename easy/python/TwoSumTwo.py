@@ -6,6 +6,8 @@ def twoSum(numbers: List[int], target: int) -> List[int]:
     sum = 0
 
     while l < r:
+        sum = numbers[l] + numbers[r]
+
         if numbers[l] + numbers[r] > target:
             r -= 1
         elif numbers[l] + numbers[r] < target:

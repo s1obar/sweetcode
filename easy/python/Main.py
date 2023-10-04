@@ -1,5 +1,5 @@
-import ThreeSum
+import ContainerWithMostWater
 
 if __name__ == '__main__':
-    result = ThreeSum.threeSum([-1,0,1,2,-1,-4])
+    result = ContainerWithMostWater.maxArea([1,1])
     print(result)
